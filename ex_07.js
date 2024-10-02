@@ -1,3 +1,6 @@
+// I AM UNSURE OF WETHER OR NOT THIS PROGRAM WORKS,
+// AS THIS IS A SOMEWHAT RECOVERED VERSION OF THE FINAL VERSION I HAVE LOST BECAUSE I DID NOT COMMIT BEFORE SHUTTING DOWN SAFARI
+
 let country = {};
 
 function createCity(country, cityName) {
@@ -22,3 +25,6 @@ function addCharacteristics(country, cityName, housingName, ...characteristics) 
 // If the city exists, it adds a new property for the housing with the provided name, initializing it as an empty array to store characteristics.
 // The 'addCharacteristics' function takes multiple characteristics as arguments and adds them to the specified housing's array.
 // It checks if both the city and housing exist in the 'country' object before adding the characteristics.
+
+
+
