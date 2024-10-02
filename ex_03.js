@@ -7,8 +7,8 @@ function fillBus(peopleAtBusStops, busSeats) {
   
   for (let i = 0; i < peopleAtBusStops.length; i++) {
     currentCapacity += peopleAtBusStops[i]; 
-    if (currentCapacity >= busSeats) {
-      return i; 
+    if (currentCapacity > busSeats) { 
+      return i+1; 
     }
   }
 
@@ -21,5 +21,3 @@ function fillBus(peopleAtBusStops, busSeats) {
 // Add people from the current stop
 // Return index if bus is full
 // Return -1 if bus never reaches full capacity
-
-console.log(fillBus([1, 3, 10, 1], 12)); // Output attendu/expected : 3
