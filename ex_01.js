@@ -5,3 +5,4 @@ function getAngryDog(numberOfWoofs) {
   }
   return result;
 }
+// Takes an integer, appends "woof" that many times to result, returns the string
