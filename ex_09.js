@@ -5,6 +5,6 @@ function addHousing(housingList, newHouse, quantity) {
     housingList.set(newHouse, quantity);
   }
 }
-// This function checks if the housing map already contains the specified house type (newHouse). 
+// This function checks if the housing map already contains the specified house types. 
 // If it does, it increases the quantity by adding to the existing value.
 // If it doesn’t, it adds the new house type with the specified quantity.
